@@ -1,0 +1,225 @@
+*{
+    margin:0px;
+    padding:0;
+    line-height:1.5;
+}
+.heading{
+    font-size:30px;
+    font-weight:700;
+}
+.parent{
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top:50px;
+}
+.child-1{
+    position: sticky;
+    top:40px;
+    width:20%;
+    margin-left:40px;
+    line-height:1.6;
+    height:500px;
+}
+.inner-child-1{
+    margin-top:40px;
+    width:85%;
+    margin:auto;
+}
+.child-2{
+    width:60%;
+}
+.link-item-1,.link-item-2{
+    margin:10px 0;
+}
+.link-section{
+    display: flex;
+    justify-content: space-between;
+    border-top:1px solid #b7aeae;
+    border-bottom: 1px solid #b7aeae;
+}
+.link-items{
+    margin-right:5px;
+    font-size:18px;
+}
+.link-items:link{
+    text-decoration: none;
+    color:rgb(28, 90, 157);
+}
+.link-items:visited{
+    color:rgb(28, 90, 157);
+}
+.link-items:hover{
+    text-decoration: underline;
+}
+.globe-img{
+    background-image: url('https://en.wikipedia.org/static/images/icons/wikipedia.png');
+    background-size: contain;
+    height:55px;
+    width:55px;
+}
+.wiki{
+    background-image: url('https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:25px;
+    width:120px;
+}
+.img-logo{
+    display: flex;
+    align-items:center;
+    column-gap: 10px;
+}
+.encyclo-img{
+    background-image: url('https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-en.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:15px;
+    width:120px;
+}
+.search-logo{
+    background-image: url('https://imgs.search.brave.com/88paOkbZJYb8uI8EoebuLDy6KrZB5mvUwNJOeeEUz-w/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy81/LzU1L01hZ25pZnlp/bmdfZ2xhc3NfaWNv/bi5zdmc.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:20px;
+    width:30px;
+}
+.search{
+    border:0;
+    width:60px;
+    padding:4px;
+    height:32px;
+}
+.search-space{
+    border:1px solid black;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.search-wiki{
+    border:0;
+    width:350px;
+    height:30px;
+}
+.content-1{
+    display: flex;
+    width:70%;
+    align-items: center;
+    gap:40px;
+}
+.navbar{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.content-2{
+    width:12%;
+}
+.sub-heading{
+    font-size:24px;
+    font-weight:500;
+}
+.sub-sub-heading{
+    font-size:18px;
+    font-weight:600;
+}
+.talk-card-1{
+    padding:10px;
+    background-color: #f2be7a;
+    height:100px;
+    width:85%;
+    margin:auto;
+}
+.card-header{
+    margin: auto;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.talk-content-1{
+    width:85%;
+}
+.talk-img-1{
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Symbol_b_class.svg/53px-Symbol_b_class.svg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:40px;
+    width:50px;
+}
+.footer-img-1{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ruddy-turnstone-icon.png/53px-Ruddy-turnstone-icon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left:20px;
+    height:30px;
+    width:40px;
+}
+.card-footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:18px;
+    background-color: white;
+    border:1px solid grey;
+}
+.talk-card-2{
+    background-color: #f2be7a;
+    padding:10px;
+    width:85%;
+    margin:auto;
+    gap:20px;
+    display: flex;
+    position:relative;
+    top:10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.talk-img-2{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/75px-Sound-icon.svg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:40px;
+    width:60px;
+    margin-left:20px;
+}
+.sub-heading{
+    border-bottom:1px solid rgb(182, 179, 179);
+    margin-top:20px;
+}
+.section-1{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.text-1{
+    width:70%;
+}
+.img-1{
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Replacement_filing_cabinet.svg/60px-Replacement_filing_cabinet.svg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:40px;
+    width:40px;
+}
+.text-2{
+    border:1px solid black;
+    width:24%;
+    background-color:#f2be7a ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    font-size:15px;
+    color:rgb(51, 51, 167)
+}
+.link:hover{
+    text-decoration: underline;
+}
+.link:visited{
+    color:rgb(51, 51, 167);
+}
